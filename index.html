@@ -63,19 +63,23 @@
 
       <section id="sec-2">
         <div
-          class="container mx-auto bg-[url('assets/rectangle3.png')] bg-cover bg-center min-h-screen w-[90%] md:w-[60%] flex flex-col justify-center items-center"
+          class="container mx-auto min-h-screen w-[90%] md:w-[60%] flex flex-col justify-center items-center"
         >
           <div
             class="relative p-[4px] rounded-full bg-gradient-to-r from-[#4FC3F7] to-white transition duration-300 hover:scale-105 hover:shadow-[0_0_30px_rgba(79,195,247,0.7)] cursor-pointer"
           >
+            <div
+              class="absolute inset-[-35px] rounded-full border-4 border-dashed border-cyan-300/40 animate-spin"
+              style="animation-duration: 18s; animation-direction: reverse"
+            ></div>
             <img
               src="assets/profile.png"
               alt="Aditi's profile photo"
-              class="h-56 w-56 rounded-full object-cover shadow-lg transition duration-300"
+              class="h-56 w-56 rounded-full object-cover shadow-lg transition duration-300 z-50"
             />
           </div>
 
-          <h1 class="text-4xl font-bold mt-6">Aditi</h1>
+          <h1 class="text-4xl font-bold mt-12">Aditi</h1>
           <h2
             id="typing-text"
             class="text-2xl font-semibold text-center bg-[linear-gradient(to_right,#4FC3F7,#FFFFFF)] bg-clip-text text-transparent mt-2 w-[90%] md:w-[60%]"
